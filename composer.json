@@ -1,0 +1,29 @@
+{
+    "name": "spencer-mortensen/logging",
+    "type": "library",
+    "description": "An ultra-lightweight logger",
+    "keywords": [
+        "logging",
+        "logger",
+        "log"
+    ],
+    "homepage": "https://github.com/spencer-mortensen/logging",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Spencer Mortensen",
+            "email": "spencer@lens.guide",
+            "homepage": "http://spencermortensen.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SpencerMortensen\\Logging\\": "src"
+        }
+    }
+}
